@@ -3,7 +3,7 @@ provider "aws" {
   version = "~> 2.46.0"
   region  = var.aws_region
 }
-
+/*
 # GCP General Configuration
 provider "google" {
   version = "~> 3.5"
@@ -15,3 +15,4 @@ provider "google" {
 provider "azurerm" {
   version = "~>1.42.0"
 }
+*/
