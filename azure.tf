@@ -1,5 +1,5 @@
 #Azure SUBZONE
-/*
+
 resource "azurerm_resource_group" "dns_resource_group" {
   count    = var.create_azure_dns_zone ? 1 : 0
   name     = "${var.namespace}DNSrg"
@@ -23,4 +23,4 @@ resource "azurerm_dns_zone" "azure_sub_zone" {
     DoNotDelete = true
   }
 }
-/*
+
