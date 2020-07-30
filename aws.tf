@@ -29,7 +29,7 @@ resource "aws_route53_record" "aws_sub_zone_ns" {
     awsns
   ]
 }
-/*
+
 # Azure SUBZONE
 
 resource "aws_route53_zone" "azure_sub_zone" {
@@ -86,4 +86,3 @@ resource "aws_route53_record" "gcp_sub_zone" {
     gcpns
   ]
 }
-*/
