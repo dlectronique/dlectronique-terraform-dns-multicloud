@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 # GCP General Configuration
-provider "google" {
+/*provider "google" {
   version = "~> 3.5"
   project = var.gcp_project
   region  = var.gcp_region
@@ -14,4 +14,4 @@ provider "google" {
 # Azure General Configuration
 provider "azurerm" {
   version = "~>1.42.0"
-}
+}*/
