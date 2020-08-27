@@ -45,7 +45,7 @@ variable "azure_location" {
 # GCP
 
 variable "create_gcp_dns_zone" {
-  description = "Set to true if you want to deploy the Azure delegated zone."
+  description = "Set to true if you want to deploy the GCP delegated zone."
   type        = bool
   default     = "false"
 }
